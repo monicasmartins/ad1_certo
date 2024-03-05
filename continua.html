@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2</title>
+    <link rel="stylesheet" href="Meuestilo.css">
+</head>
+<body>
+    <header>
+<img class= imgLogo src="Imagens/RefrescaPeTopo.png" alt="Topo"> <address class="ender"> Rua da Olaria 3. piso <br> Tel.(21) 98811-2244 <br><a href="contato@refrescope.com.br">contato@refrescopé.com.br</a></address>
+
+
+    </header> 
+           
+            <nav>
+                <ul>
+                    <li><a href="RefrescaPepisoFrio.html" target="_blank">Apresentação</a></li>
+                        <li><a href="Porcelanatos.html" target="_blank">Porcelanatos</a></li>
+                        <li><a href="Complementos.html" target="_blank">Complementos</a></li>
+                        <li><a href="Pedidos.html" target="_blank">Pedidos</a></li>
+                    </ul>
+                </nav>
+                <section>
+                    <form class="FormBox">
+    <fieldset class="FSLinhaInteira">
+         <legend> Identificação</legend>
+            <div>
+                  <label for="Nome" class="colPri"> Nome:</label>
+                  <input class="InpBoxGnd" type="text" id="Nome"> <br>
+            </div>
+            <div>
+                <label for="Email" class="colPri"> E-mail:</label>
+                <input class = "InpBoxGnd" type="email" id="Email"><br>
+            </div>
+            <div>
+                <label for="endere" class="colPri">Endereço:</label>
+                <textarea class = "inpEnder"id="endere"> </textarea>
+        <fieldset class="FSDir">
+         <legend>Genero</legend>
+                 <input type="radio" name="genero" id="Mas">
+                <label for="Mas">Mas</label>
+                <input type="radio" name="genero" id="Fem">
+                <label for="Fem">Fem</label>
+                <input type="radio" name="genero" id="Outro">
+                <label for="Outro">Outro</label>
+          </fieldset>
+             </div>  
+                    <div>
+                <label for="fone" class="colPri">Telefone: </label>
+                <input class = "inpTel" type="tel" id="fone"> <br>
+                <label for="celular" class="colPri" >Celular:</label>
+                <input  class = "inpTel"type="tel" id="celular">
+            <fieldset class="FSDir">
+                <legend>Nascimento</legend>
+                <input class = "numDD" type="number" id="dia" min="1" max="31">
+                <input class = "numDD"  type="number" id="mês" min="1" max="12">
+                <input class = "nunQD" type="number" id="ano" min="1900" max="3000">
+
+            </div>
+    </fieldset>
+ 
+
+
+ </fieldset>
+<fieldset class="FSLinhaInteira">
+    <legend>Pagamento</legend>
+    <fieldset class="FSEsq">
+        <legend>Cartão</legend>
+        <div>
+            <label>Bandeira:</label>
+            <input type="radio" name="bandeira" id="Visa">
+            <label for="Visa">Visa</label>
+            <input type="radio" name="bandeira" id="Master">
+            <label for="Master">Master</label>
+            <input type="radio" name="bandeira" id="Elo">
+            <label for="Elo">Elo</label><br>
+        </div>
+        <div>
+            <label for="Validade">Validade:</label>
+            <input class = "numDD" type="number" id="Validade" min="01" max="12" >
+            <input class= "nunQD" type="number" id=" ano" min="2000" max="2500">
+            <br>
+        </div>
+        <div>
+            <label for="Número" >Número:</label>
+            <input  class = inpNCC type="number" name="number" id="Número">
+        </div>
+    </fieldset>
+<textarea class="listaCompras"></textarea><br>
+<div class="colValTot">
+    <label for="total">Valor Total: R$</label>
+    <input class = "InpBoxMed" type="text" id="total">
+</div>
+        
+</fieldset>
+    <div class="botoes">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </div>  
+
+</form>
+
+
+
+
+                </section>
+            </body>
+            </html>
